@@ -1,8 +1,10 @@
 floatlabel
 ==========
 
-A jQuery Float-Label plugin
+A jQuery plugin that implements the Float Label Pattern and aims to be as semantic and accessible as possible.
+Inspired by: http://bradfrostweb.com/blog/post/float-label-pattern/
 
+Written using harp, coffeescript, and stylus.
 
 Usage
 =====
