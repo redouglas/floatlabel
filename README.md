@@ -8,7 +8,7 @@ Written using harp, coffeescript, and stylus.
 
 Demo
 ====
-See example
+See the example folder
 
 
 Usage
@@ -16,12 +16,15 @@ Usage
 
 * Include jQuery & the javascript
 * Include the css and optional aesthetic styles
+* Add class 'floatlabel' to the input or textarea that you'd like (```floatlabelform()``` requires this to work!)
+* Set up your DOM as per usual. Must have equivolent ```for```s on labels and ```id```s on inputs/textareas
 
-To initiate on a single field:
+
+To instantiate  a single field:
 ```
 $('#input').floatlabel()
 ```
-To initiate on an entire form:
+To instantiate an entire form:
 ```
 $('form').floatlabelform()
 ```
