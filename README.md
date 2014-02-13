@@ -1,4 +1,4 @@
-floatlabel
+Floatlabel
 ==========
 
 A jQuery plugin that implements the Float Label Pattern and aims to be as semantic and accessible as possible.
