@@ -6,12 +6,16 @@ Inspired by: http://bradfrostweb.com/blog/post/float-label-pattern/
 
 Written using harp, coffeescript, and stylus.
 
+Demo
+====
+See example
+
+
 Usage
 =====
 
-* Include the javascript
-* Include the css
-* Optional - Add aesthetic styling
+* Include jQuery & the javascript
+* Include the css and optional aesthetic styles
 
 To initiate on a single field:
 ```
