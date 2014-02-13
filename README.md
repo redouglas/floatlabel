@@ -8,7 +8,7 @@ Written using harp, coffeescript, and stylus.
 
 Demo
 ====
-See the example folder
+View the demo [here](http://redouglas.github.io/floatlabel/). See the example folder for source.
 
 
 Usage
