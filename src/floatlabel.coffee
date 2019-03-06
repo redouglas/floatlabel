@@ -19,12 +19,13 @@ do ($ = jQuery) ->
       @input_css_props = {}
 
       @initLabel()
-      
+
       @input.on 'input', @moveLabelPosition
+      @moveLabelPosition() # handle prefilled input scenario
 
     getInputCss: (prop_name) ->
       @input_css_props[prop_name] ||= parseInt(@input.css(prop_name), 10)
-      
+
 
     initLabel: ->
       @label.addClass 'initlabel'
